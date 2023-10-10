@@ -1,0 +1,21 @@
+.list{
+    list-style: none;
+    display: inline-flexbox;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+}
+.list li{
+    padding-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.list li:hover{
+    border:1px solid black;
+    background-color: beige;
+    padding: 10px;
+    color: black;
+    margin-left: 10px;
+}

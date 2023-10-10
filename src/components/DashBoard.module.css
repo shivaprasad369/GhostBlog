@@ -1,0 +1,29 @@
+.card{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.cards{
+    display: inline-flex ;
+}
+.posts{
+    display: inline-flexbox;
+    padding: 20px;
+    text-decoration: dashed;
+}
+.posts h1{
+    text-align: center;
+    text-decoration: dotted;
+}
+@media screen and (max-width: 630px) {
+    .cards {
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+      
+      display: inline-block;
+    }
+  }
